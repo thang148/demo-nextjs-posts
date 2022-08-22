@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    color: #0098d9;
+  }
+  button:focus {
+    outline: none;
+  }
+}
+
+@layer components {
+  .navbar {
+    height: 44px;
+    @apply flex items-center w-full;
+  }
+
+  .space-box {
+    @apply mb-8 md:mb-12;
+  }
+
+  .text-content {
+    color: #091e42;
+  }
+
+  .__title {
+    @apply font-semibold cursor-pointer text-xl md:text-2xl hover:underline;
+  }
+
+  .__title_sub {
+    @apply font-bold cursor-pointer mt-4 text-sm md:text-base;
+  }
+
+  .max_layout {
+    @apply max-w-base p-4 sm:p-4 m-auto;
+  }
+}
+
+@layer utilities {
+  .bg-header {
+    background: linear-gradient(180deg, #002672 0%, #002e8a 99%);
+  }
+
+  .h-44 {
+    height: 44px;
+  }
+
+  .shadown_menu {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+
+  .max-w-base {
+    max-width: 992px;
+  }
+  .cls-1 {
+    fill: #153993;
+  }
+
+  .cls-2 {
+    fill: #fff;
+  }
+
+  .cls-3 {
+    fill: #f34036;
+  }
+
+  .cls-4 {
+    opacity: 0.7;
+  }
+}

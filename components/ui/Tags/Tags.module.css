@@ -1,0 +1,4 @@
+.tag {
+  padding: 4px 16px;
+  @apply border border-gray-300 text-sm cursor-pointer my-2 hover:border-blue-600 rounded-full;
+}

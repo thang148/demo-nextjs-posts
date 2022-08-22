@@ -1,0 +1,10 @@
+.root {
+  min-height: 64px;
+  min-width: 64px;
+  max-height: 256px;
+}
+.layoutVideo {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}

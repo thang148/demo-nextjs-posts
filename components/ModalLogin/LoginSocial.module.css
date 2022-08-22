@@ -1,0 +1,29 @@
+.btn {
+  border-radius: 2px;
+  height: 44px;
+  background: #305ed6;
+  display: flex;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  width: "100%";
+  color: white;
+  @apply cursor-pointer hover:bg-blue-500;
+}
+.icon {
+  width: 48px;
+  height: 32px;
+  border-radius: 2px;
+  @apply flex items-center justify-center;
+}
+.gg {
+  background-color: #ff3d00;
+  @apply hover:bg-red-400;
+}
+.fb {
+  background-color: #305ed6;
+  @apply hover:bg-blue-400;
+}
+.app {
+  height: 44px;
+}

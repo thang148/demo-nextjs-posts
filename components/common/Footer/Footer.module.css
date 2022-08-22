@@ -1,0 +1,12 @@
+.bg {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  background-color: #ebecf0;
+  color: #303b50;
+}
+
+@screen md {
+  .maxWidth {
+    max-width: 500px;
+  }
+}

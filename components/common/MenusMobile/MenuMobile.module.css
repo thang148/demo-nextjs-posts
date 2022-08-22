@@ -1,0 +1,51 @@
+.root {
+  z-index: 11;
+  top: 100%;
+  max-width: 350px;
+  width: 100vw;
+  height: calc(100vh - 3.5rem);
+  transition: transform 0.2s;
+  top: 44px;
+  @apply fixed right-0 text-title;
+}
+.tranparent {
+  width: 100vw;
+  height: calc(100vh - 3.5rem);
+  right: 0;
+  top: 44px;
+  opacity: 0.7;
+  @apply fixed right-0 z-10 bg-gray-400;
+}
+.content {
+  min-height: 300px;
+  height: 100%;
+  background-color: #f4f5f7;
+  padding-bottom: 100px;
+  @apply overflow-auto;
+}
+.ww {
+  width: 44px;
+  height: 44px;
+}
+.hidden {
+  transform: translateX(100%);
+}
+.show {
+  transform: translate(0);
+}
+.red {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 100%;
+  @apply mr-2;
+}
+/* 
+@keyframes openModal {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translate(0);
+  }
+} */

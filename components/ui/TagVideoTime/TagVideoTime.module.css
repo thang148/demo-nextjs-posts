@@ -1,0 +1,13 @@
+.time {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-left: 1rem solid #fff;
+  border-bottom: 0.5rem solid transparent;
+}
+
+.timeMobile {
+  border-top: 0.25rem solid transparent;
+  border-left: 0.5rem solid #fff;
+  border-bottom: 0.25rem solid transparent;
+}

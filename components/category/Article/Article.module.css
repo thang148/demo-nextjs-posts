@@ -1,0 +1,10 @@
+.tag {
+  padding: 4px 16px;
+  @apply border border-gray-300 text-sm cursor-pointer;
+}
+.img {
+  width: 70px;
+  height: 70px;
+  border: 5px solid #536ebf;
+  @apply rounded-full;
+}

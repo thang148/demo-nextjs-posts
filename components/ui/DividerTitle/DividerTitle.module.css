@@ -1,0 +1,20 @@
+.s2 {
+  height: 16px;
+  width: 40px;
+  @apply flex;
+}
+
+.s3 {
+  width: 6px;
+  background-color: #f34036;
+  transform: skewX(-20deg);
+  @apply h-full;
+}
+
+.s4 {
+  width: 3px;
+  margin-left: 2px;
+  background-color: #f34036;
+  transform: skewX(-20deg);
+  @apply h-full;
+}

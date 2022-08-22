@@ -1,0 +1,38 @@
+.item:hover > ul {
+  @apply block;
+}
+
+.item:hover a {
+  @apply text-white;
+}
+
+.ul_sub:hover > ul {
+  @apply block;
+}
+
+.bg {
+  background: linear-gradient(180deg, #002672 0%, #002e8a 99%);
+  @apply sticky z-10 top-0 sm:static;
+}
+
+.ul {
+  top: 44px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.ul::after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: -10px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.sub_item {
+  left: 97%;
+}
+

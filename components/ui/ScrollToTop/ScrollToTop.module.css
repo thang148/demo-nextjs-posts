@@ -1,0 +1,14 @@
+.btnScroll {
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 5;
+  opacity: 0.6;
+  transition: transform 0.3s;
+  @apply fixed p-3 bg-black text-white shadow rounded;
+}
+.hiddentBtn {
+  transform: translateY(100px);
+}
+.blockBtn {
+  transform: translateY(0);
+}

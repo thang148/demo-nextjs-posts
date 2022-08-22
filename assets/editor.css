@@ -1,0 +1,81 @@
+.editable-area ol {
+  list-style-type: decimal;
+}
+
+.editable-area ul {
+  list-style-type: disc;
+}
+
+.__editor {
+  padding-bottom: 2rem;
+}
+
+.__view_article h1 {
+  font-size: 2em;
+}
+
+.__view_article h2 {
+  font-size: 1.5em;
+}
+
+.__view_article h3 {
+  font-size: 1.17em;
+}
+
+.__view_article h4 {
+  font-size: 1em;
+}
+
+.__view_article h5 {
+  font-size: 0.83em;
+}
+
+.__view_article h6 {
+  font-size: 0.67em;
+}
+.__editor p {
+  text-align: justify;
+  margin-bottom: 1rem;
+  white-space: initial;
+  font-size: 18px;
+}
+
+.__editor pre {
+  overflow-x: auto;
+}
+
+.__editor a:hover {
+  text-decoration: underline;
+}
+
+.max_content {
+  max-width: 658px;
+}
+.my_iframe iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+  ._emagazine .max_content {
+    padding: 0 1rem;
+  }
+  .__view_article h1 {
+    font-size: 1.5em;
+  }
+  .__view_article h2 {
+    font-size: 1.25em;
+  }
+
+  .__view_article h3 {
+    font-size: 1.15em;
+  }
+  .__view_article h4 {
+    font-size: 1em;
+  }
+  .__view_article h5 {
+    font-size: 0.7em;
+  }
+  .__view_article h6 {
+    font-size: 0.6em;
+  }
+}

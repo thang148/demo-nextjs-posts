@@ -1,0 +1,22 @@
+{
+  "name": "OnSports",
+  "short_name": "OnSports",
+  "description": "Tin tức thể thao nhiều người đọc nhất Việt Nam",
+  "display": "standalone",
+  "start_url": "/",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+       "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    }
+  ]
+}
